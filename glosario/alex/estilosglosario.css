@@ -1,0 +1,21 @@
+#carouselExampleControls{
+height:500px;
+overflow:hidden;
+}
+
+.imgCarousel{
+	height: 500px;
+}
+
+/*.textos{
+	font-size: 50px;
+}*/
+
+.fondo-transparente{
+	background-color: rgba(0,0,0,0.5);
+	height: 150px;
+	top:20%;
+	left:30%;
+
+
+}
