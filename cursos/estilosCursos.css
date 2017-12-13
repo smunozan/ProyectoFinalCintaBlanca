@@ -63,6 +63,11 @@
 	
 }
 
+.submenuOtros{
+	background-color: #3400ffbf;
+	
+}
+
 .contenidoSubMenu span{
 	color: white;
 	display: flex;
@@ -92,7 +97,7 @@
 		/*tarjetas*/
 .card{
 	border-radius: 6px;
-	width: 305px;
+	width: 250px;
 	border: 0px solid;
 	display: inline-flex;
 	flex-wrap: nowrap;
@@ -138,4 +143,72 @@
 a{
 	text-decoration: none;
 	color: black;
+}
+
+		/*detalle de cursos*/
+
+.cajaDetalles{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 0;
+	left: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.detallesCursos{
+	width: 30%;
+	background-color: rgba(255,255,255,0.8);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+}
+
+.detallesCursos h2{
+/*	color: white;*/
+	font-size: 40px;
+	font-family: raleway;
+	margin: 10px;
+}
+
+.detallesCursos span{
+	/*color: white;*/
+	font-size: 20px;
+	font-family: raleway;
+	margin: 10px;
+}
+
+.detallesCursos button{
+	width: 300px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 25px;
+	font-family: raleway;
+}
+
+.detallesCursos li{
+	/*color: white;*/
+	font-size: 15px;
+	font-family: raleway;
+	margin: 10px;
+	text-align: left;
+
+}
+
+.horasYclases{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.horasYclases span{
+	margin: 10px 25px;
+	display: flex;
+	align-items: center;
 }

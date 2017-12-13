@@ -77,8 +77,8 @@
             <button type="button" class="btn btn-outline-secondary" id="desarrolloWeb"><i class="material-icons icono-filtro">desktop_windows</i>Desarrollo Web</button>
             <button type="button" class="btn btn-outline-secondary" id="aplicacionesMoviles"><i class="material-icons icono-filtro">phone_android</i>Aplicaciones móviles</button>
             <button type="button" class="btn btn-outline-secondary" id="LenguajesProgramacion"><i class="material-icons icono-filtro">code</i>Lenguajes de programación</button>
-            <button type="button" class="btn btn-outline-secondary "><i class="material-icons icono-filtro">videogame_asset</i>Desarrollo de videojuegos</button>
-            <button type="button" class="btn btn-outline-secondary more"><i class="material-icons">more_vert</i></button>
+            <button type="button" class="btn btn-outline-secondary" id="videojuegos"><i class="material-icons icono-filtro">videogame_asset</i>Desarrollo de videojuegos</button>
+            <button type="button" class="btn btn-outline-secondary more" id="masOpciones"><i class="material-icons">more_vert</i></button>
           </div>
         </div>
       </div>
@@ -88,7 +88,7 @@
         <div class="container contenidoSubMenu">
           <span>Populares:</span>
           <div class="botonesSubMenu">
-            <button type="button" class="btn btn-light">Javascript</button>
+            <button type="button" class="btn btn-light" id="javascript">Javascript</button>
             <button type="button" class="btn btn-light">HTML</button>
             <button type="button" class="btn btn-light">CSS</button>
             <button type="button" class="btn btn-light">React</button>
@@ -123,10 +123,35 @@
         </div>
       </div>
 
+      <div id="menuVideojuegos" class="submenu" style="display: none;">
+        <div class="container contenidoSubMenu">
+          <span>Populares:</span>
+          <div class="botonesSubMenu">
+            <button type="button" class="btn btn-light">Unity</button>
+            <button type="button" class="btn btn-light">GameMaker Studio</button>
+            <button type="button" class="btn btn-light">C#</button>
+            <button type="button" class="btn btn-light">Blender</button>
+            <button type="button" class="btn btn-light">C++</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="menuMasOpciones" class="submenu submenuOtros" style="display: none;">
+        <div class="container contenidoSubMenu">
+          <span>Otros Temas:</span>
+          <div class="botonesSubMenu">
+            <button type="button" class="btn btn-light">Diseño</button>
+            <button type="button" class="btn btn-light">Edición de video</button>
+            <button type="button" class="btn btn-light">Chatbots</button>
+            <button type="button" class="btn btn-light">Startups</button>
+          </div>
+        </div>
+      </div>
+
 
   <!-- cursos -->
       <div class="cursos container">
-        <a href="">
+        <a id="curso1">
           <div class="card">
             <img class="card-img-top" src="https://udemy-images.udemy.com/course/240x135/957106_270f_6.jpg" alt="Card image cap">
             <div class="card-body">
@@ -147,6 +172,24 @@
             </div>
           </div>
         </a>
+
+        <div id="cajaDetalles1" class="cajaDetalles">
+          <div id="detallesCurso1" class="detallesCursos">
+            <h2>Programación de Android desde Cero +35 horas Curso COMPLETO</h2>
+            <!-- <span id="categoria"></span> -->
+            <div class="horasYclases">
+              <span><i class="material-icons">play_circle_outline</i>247 clases</span>
+              <span><i class="material-icons">access_time</i>40 horas</span>
+            </div>
+            <span>Aprender a programar aplicaciones y juegos para Android de forma profesional y desde cero.</span>
+            <ul>
+              <li>Programar y publicar sus propias Aplicaciones para Android</li>
+              <li>Desarrollar y publicar sus propios Juegos para Android</li>
+              <li>Crear apps con Material Design y Responsive Design</li>
+            </ul>
+            <button type="button" class="btn btn-danger" id="empezar1" href="https://www.udemy.com/programacion-de-android-desde-cero/">Inscribirme</button>
+          </div>
+        </div>
 
         <a href="">
           <div class="card">
@@ -258,7 +301,49 @@
           </div>
         </a>
 
+        <a href="">
+          <div class="card">
+            <img class="card-img-top" src="https://udemy-images.udemy.com/course/240x135/980450_7fc0_3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title descripcion2">Desarrollo Web Completo con HTML5...</h4>
+              <p class="card-text">Juan Pablo De La Torre</p>
+              <div class="calificacion align-items-center">
+                <div class="estrellas">
+                  <i class="material-icons icono-estrella">star_rate</i>
+                  <i class="material-icons icono-estrella">star_rate</i>
+                  <i class="material-icons icono-estrella">star_rate</i>
+                  <i class="material-icons icono-estrella estrella-blanca">star_rate</i>
+                  <i class="material-icons icono-estrella estrella-blanca">star_rate</i>
+                </div>
+                <div class="numero-estrellas">
+                  <span>(2598)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
 
+        <a href="">
+          <div class="card">
+            <img class="card-img-top" src="https://udemy-images.udemy.com/course/240x135/980450_7fc0_3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title descripcion2">Desarrollo Web Completo con HTML5...</h4>
+              <p class="card-text">Juan Pablo De La Torre</p>
+              <div class="calificacion align-items-center">
+                <div class="estrellas">
+                  <i class="material-icons icono-estrella">star_rate</i>
+                  <i class="material-icons icono-estrella">star_rate</i>
+                  <i class="material-icons icono-estrella">star_rate</i>
+                  <i class="material-icons icono-estrella estrella-blanca">star_rate</i>
+                  <i class="material-icons icono-estrella estrella-blanca">star_rate</i>
+                </div>
+                <div class="numero-estrellas">
+                  <span>(2598)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
 
 
 
