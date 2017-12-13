@@ -23,7 +23,7 @@
 }
 
 .texto-carrusel span{
-	color: gray;
+	color: gray;	
 	font-size: 50px;
 }
 
@@ -58,7 +58,7 @@
 }
 
 	/*submenu*/
-#menuDesarrolloWeb{
+.submenu{
 	background-color: #8080809c;
 	
 }
