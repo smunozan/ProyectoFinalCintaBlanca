@@ -1,0 +1,193 @@
+ /*Small devices (320px and up)*/
+@media (min-width: 320px) {
+
+	/*carrusel*/
+	#carouselExampleControls{
+		height: 158px;
+		overflow: hidden;
+	}
+
+	.carousel-item img{
+		width: 200%;
+		height: auto;
+	}
+
+	.texto-carrusel img{
+		width: 45%;
+	}
+
+	.texto-carrusel span{
+		color: gray;	
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.texto-carrusel{
+	    background-color: rgba(255,255,255,0.8);
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    position: absolute;
+	    z-index: 100;
+	    top: 12%;
+	    right: 0%;
+	    left: 20%;
+	    width: 60%;
+	    padding: 0 5px 5px 5px;
+	    border-radius: 15px;
+	}
+
+	.texto-carrusel button{
+	color: white;
+	font-size: 15px;
+	background-color: #808080a8;
+	}
+
+	/*main*/
+		/*cursos*/
+			/*detalle de cursos*/
+	.detallesCursos{
+	width: 100%;
+	padding: 10px;
+	}
+
+	.detallesCursos h2{
+		font-size: 25px;
+		font-family: raleway;
+		margin: 7px;
+	}
+
+	.detallesCursos button {
+	    width: 45%;
+	    height: 50px;
+	    font-size: 20px;
+	}
+
+	.horasYclases span{
+		font-size: 17px;
+	}
+
+
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	/*carrusel*/
+	#carouselExampleControls{
+		height: 285px;
+		overflow: hidden;
+	}
+
+	.carousel-item img{
+		width: 100%;
+		height: auto;
+	}
+
+	.texto-carrusel img{
+		width: 95%;
+	}
+
+	.texto-carrusel span{
+		color: gray;	
+		font-size: 28px;
+		text-align: center;
+	}
+
+	.texto-carrusel{
+	    background-color: rgba(255,255,255,0.8);
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    position: absolute;
+	    z-index: 100;
+	    top: 12%;
+	    right: 0%;
+	    left: 15%;
+	    width: 70%;
+	    padding: 0 20px 10px 20px;
+	    border-radius: 15px;
+	}
+
+	.texto-carrusel button{
+		color: white;
+		font-size: 25px;
+		background-color: #808080a8;
+	}
+
+	/*main*/
+		/*cursos*/
+			/*detalle de cursos*/
+	.detallesCursos{
+	width: 75%;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	/*carrusel*/
+	#carouselExampleControls{
+		height: 375px;
+		overflow: hidden;
+	}
+
+	.carousel-item img{
+		/*object-position: 0 -130px;*/
+		width: 100%;
+		height: auto;
+	}
+
+	.texto-carrusel span{
+		color: gray;	
+		font-size: 35px;
+		text-align: center;
+	}
+
+	.texto-carrusel{
+	    background-color: rgba(255,255,255,0.8);
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    position: absolute;
+	    z-index: 100;
+	    top: 20%;
+	    right: 0%;
+	    left: 25%;
+	    width: 50%;
+	    padding: 0 30px 30px 30px;
+	    border-radius: 15px;
+	}
+
+	.texto-carrusel img{
+		width: 85%;
+	}
+
+	/*main*/
+		/*cursos*/
+			/*detalle de cursos*/
+	.detallesCursos{
+	width: 60%;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	/*carrusel*/
+	#carouselExampleControls{
+		height: 500px;
+		overflow: hidden;
+	}
+
+	/*main*/
+		/*cursos*/
+			/*detalle de cursos*/
+	.detallesCursos{
+	width: 40%;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}

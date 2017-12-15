@@ -277,8 +277,6 @@ $("#bootstrap").click(function(){
 
 
 
-
-
 // detalle de cursos
 
 $("#curso1").click(function(){
