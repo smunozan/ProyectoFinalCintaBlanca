@@ -1,1 +1,0 @@
-scriptglosario.js
