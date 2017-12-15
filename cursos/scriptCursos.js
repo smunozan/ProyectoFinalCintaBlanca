@@ -4,6 +4,32 @@ $("#empezar").click(function(){
 	$(window).scrollTop($('#main').offset().top);
 })
 
+//iniciar sesion
+$("#botonIniciar").click(function(){
+	$("#iniciarSesion").css("display", "flex")
+})
+
+//no es usuario
+$("#perfil").click(function(){
+	$("#noEsUsuario").css("display", "flex")
+})
+
+$("#registro1").click(function(){
+	 $("#iniciarSesion").css("display", "none")
+	 $("#noEsUsuario").css("display", "none")
+	 $("#registro").css("display", "flex")
+  })
+
+//registro
+
+$("#botonRegistrar").click(function(){
+	$("#registro").css("display", "flex")
+})
+
+$("#registrarme").click(function(){
+	$("#registro").css("display", "none")
+})
+
 // filtros
 
 $("#desarrolloWeb").hover(function(){
@@ -280,6 +306,7 @@ $("#bootstrap").click(function(){
 
 
 // detalle de cursos
+	//curso1
 
 $("#curso1").click(function(){
 	$("#cajaDetalles1").css("display", "flex")

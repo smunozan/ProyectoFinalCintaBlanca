@@ -4,6 +4,110 @@
 	overflow: hidden;
 }*/
 
+/*iniciar sesion*/
+.cajaIniciarSesion{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 110;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 0;
+	left: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.detallesIniciar{
+	width: 25%;
+	background-color: rgba(255,255,255,1);
+	border-radius: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+}
+
+#iniciarSesion1 button{
+	margin: 10px;
+}
+
+#iniciarSesion1 input{
+	margin: 5px;
+	border-radius: 2px;
+}
+
+/*-----------*/
+
+.cajaNoEsUsuario{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 120;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 0;
+	left: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.detallesNoEsUsuario{
+	width: 25%;
+	background-color: rgba(255,255,255,1);
+	border-radius: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+}
+
+#noEsUsuario1 button{
+	margin: 10px;
+}
+
+#noEsUsuario1 input{
+	margin: 5px;
+	border-radius: 2px;
+}
+
+/*registro*/
+.cajaRegistro{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 115;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 0;
+	left: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.detallesRegistro{
+	width: 25%;
+	background-color: rgba(255,255,255,1);
+	border-radius: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+}
+
+#registro2 button{
+	margin: 10px;
+}
+
+#registro2 input{
+	margin: 5px;
+	border-radius: 2px;
+}
+
+
 /*.carousel-item img{
 	object-position: 0 -130px;
 	width: 100%;
@@ -35,11 +139,14 @@
 	width: 95%;
 }*/
 
-/*.texto-carrusel button{
-	color: white;
-	font-size: 30px;
-	background-color: #808080a8;
-}*/
+.texto-carrusel button{
+	margin: 0 5px;
+}
+
+.botones{
+	display: flex;
+	flex-direction: row;
+}
 
 /*main*/
 	/*filtros*/
@@ -220,4 +327,8 @@ a{
 	margin: 10px 25px;
 	display: flex;
 	align-items: center;
+}
+
+.videoYoutube{
+	width: 80%;
 }
